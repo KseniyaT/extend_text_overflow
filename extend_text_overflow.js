@@ -1,12 +1,8 @@
-$(window).load(function() {
-  $('.description p').extend_text_overflow();
-});
-
-(function($){
+;(function($){
   $.fn.extend_text_overflow = function(options){
     var defaults = {
       targetContainerClass: '.description'
-    }
+    };
 
     options = $.extend(defaults, options);
 
